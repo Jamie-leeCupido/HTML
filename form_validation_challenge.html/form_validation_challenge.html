@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    body {
+background-color: light yellow;
+
+    }
+
+    </style>
+  </head>
+  <body align="center ">
+   <h1>Registration Form</h1>
+
+   <form>
+
+<p>  User ID:
+  <input type="text" name="username"></p>
+<p>  User password:
+  <input type="password" name="psw" minlength="5" maxlength="12"></p>
+<p>  Name:
+  <input type="text" name="name"></p>
+<p>  Address:
+  <input type="text" name="address"></p>
+
+
+  Country:
+    <select name="Country"></p>
+  <option value="South Africa">South Africa</option>
+  <option value="Peru">Peru</option>
+  <option value="Brazil">Brazil</option>
+  <option value="Italy">Italy</option>
+</select><br/>
+
+<p>Zip code:
+  <input type="text" name="quantity"  pattern="[0-9]+" placeholder="numerical values"></p>
+
+  Email address:
+ <input type="email" name="email">
+
+  <p><input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female</p>
+
+  <p> Language:<input type="checkbox" name="language1" value="English">English
+  <input type="checkbox" name="language2" value="Non English">Non English</p>
+
+  About?
+  <textarea name="message" style="width:200px; height:50px" placeholder="Optional">
+</textarea>
+
+ <p><input type="submit" value="Submit"></p>
+
+
+</form>
+  </body>
+</html>
